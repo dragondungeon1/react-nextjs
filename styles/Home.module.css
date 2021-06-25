@@ -81,7 +81,7 @@
 .card {
   margin: 1rem;
   padding: 1.5rem;
-  text-align: left;
+  text-align: center;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
@@ -108,6 +108,10 @@
   line-height: 1.5;
 }
 
+.card Link {
+  cursor: grab;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -119,3 +123,11 @@
     flex-direction: column;
   }
 }
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Roboto Black";
+}
+
+
